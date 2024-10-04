@@ -70,7 +70,7 @@ class _CustomListTile extends StatelessWidget {
       trailing: Icon(Icons.arrow_forward_ios_rounded, size: iconSize),
       onTap: onTap ??
           () {
-            context.goNamed(menuItem.screen);
+            context.pushNamed(menuItem.screen);
           },
     );
   }
