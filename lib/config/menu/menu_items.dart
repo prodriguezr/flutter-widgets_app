@@ -31,4 +31,11 @@ List<MenuItem> appMenuItems = <MenuItem>[
     icon: Icons.card_travel_outlined,
     screen: 'CardsScreen',
   ),
+  const MenuItem(
+    title: 'Progress Indicators',
+    subtitle: 'General and Controlled',
+    link: '/progress',
+    icon: Icons.refresh_rounded,
+    screen: 'ProgressScreen',
+  ),
 ];
