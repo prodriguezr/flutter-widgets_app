@@ -45,4 +45,11 @@ List<MenuItem> appMenuItems = <MenuItem>[
     icon: Icons.info_outlined,
     screen: 'SnackbarScreen',
   ),
+  const MenuItem(
+    title: 'Animated Container',
+    subtitle: 'Stateful widget animated',
+    link: '/animated',
+    icon: Icons.play_circle_outline_rounded,
+    screen: 'AnimatedScreen',
+  ),
 ];
