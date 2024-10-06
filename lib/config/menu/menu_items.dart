@@ -59,4 +59,11 @@ List<MenuItem> appMenuItems = <MenuItem>[
     icon: Icons.check_box_outline_blank_outlined,
     screen: 'UiControlsScreen',
   ),
+  const MenuItem(
+    title: 'App Tutorial',
+    subtitle: 'Short introductory tutorial',
+    link: '/tutorial',
+    icon: Icons.auto_fix_high_outlined,
+    screen: 'AppTutorialScreen',
+  ),
 ];
