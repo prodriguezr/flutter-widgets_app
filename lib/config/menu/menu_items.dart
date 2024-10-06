@@ -52,4 +52,11 @@ List<MenuItem> appMenuItems = <MenuItem>[
     icon: Icons.play_circle_outline_rounded,
     screen: 'AnimatedScreen',
   ),
+  const MenuItem(
+    title: 'UI Controls',
+    subtitle: 'Textfield, Checkbox, Slider, etc',
+    link: '/ui-controls',
+    icon: Icons.check_box_outline_blank_outlined,
+    screen: 'UiControlsScreen',
+  ),
 ];
