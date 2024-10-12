@@ -66,4 +66,11 @@ List<MenuItem> appMenuItems = <MenuItem>[
     icon: Icons.auto_fix_high_outlined,
     screen: 'AppTutorialScreen',
   ),
+  const MenuItem(
+    title: 'Infinite Scroll & Pull to refresh',
+    subtitle: 'Infinite scroll and pull to refresh in Flutter',
+    link: '/infinite',
+    icon: Icons.auto_fix_high_outlined,
+    screen: 'InfiniteScrollScreen',
+  ),
 ];

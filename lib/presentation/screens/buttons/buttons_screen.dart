@@ -72,7 +72,7 @@ class _ButtonsView extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(Icons.access_alarm_rounded),
             ),
-            CustomButton(
+            const CustomButton(
               text: 'Custom Button',
               onPressed: null,
             ),
