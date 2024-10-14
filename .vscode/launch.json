@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter: Dispositivo Físico",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "00008120-000E590A1E78C01E" // ID del emulador
+    },
+    {
+      "name": "Flutter: Emulador IOS",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "2E31220E-C0A1-4B35-ADB0-F1D72322657E"
+    }
+  ]
+}

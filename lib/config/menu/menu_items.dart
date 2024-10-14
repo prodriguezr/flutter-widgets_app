@@ -18,11 +18,18 @@ class MenuItem {
 
 List<MenuItem> appMenuItems = <MenuItem>[
   const MenuItem(
-    title: 'Buttons',
-    subtitle: 'Multiple buttons in Flutter',
-    link: '/buttons',
-    icon: Icons.smart_button_outlined,
-    screen: 'ButtonsScreen',
+    title: 'Riverpod Counter',
+    subtitle: 'Counter in Flutter with Riverpod',
+    link: '/counter',
+    icon: Icons.countertops_rounded,
+    screen: 'CounterScreen',
+  ),
+  const MenuItem(
+    title: 'Theme Changer',
+    subtitle: 'Theme Changer in Flutter',
+    link: '/the-changer',
+    icon: Icons.color_lens_outlined,
+    screen: 'ThemeChangerScreen',
   ),
   const MenuItem(
     title: 'Cards',
